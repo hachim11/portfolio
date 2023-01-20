@@ -1,0 +1,179 @@
+.projects {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.projects .projects_container {
+  height: 100%;
+}
+
+.projects .projects_container .projects_filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 10px 10px 0 0;
+  margin: 2rem 0 2rem;
+}
+
+.projects .projects_container .projects_filter .projects_filter-item {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-black);
+  color: var(--color-bg-primary);
+  font-weight: 800;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0.5rem;
+}
+
+.projects .projects_container .projects_filter .projects_filter-item:hover {
+  color: var(--subtitleDark);
+}
+
+.projects .projects_container .projects_filter .item-active {
+  background-color: var(--backgroundDark);
+  color: var(--titleDark);
+}
+
+.projects .projects_container .projects_works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.projects .projects_container .projects_works .projects_works-item {
+  width: 265px;
+  height: 330px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  color: #faf6f6;
+  background-color: #353550;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.projects .projects_container .projects_works .projects_works-item:hover {
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.projects .projects_container .projects_works .projects_works-item .works-img {
+  width: 100%;
+  height: 230px;
+  position: relative;
+}
+
+.projects .projects_container .projects_works .projects_works-item .works-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects .projects_container .projects_works .projects_works-item .works-img:hover .works-link {
+  opacity: 1;
+}
+
+.projects .projects_container .projects_works .projects_works-item .works-img .works-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.projects .projects_container .projects_works .projects_works-item .works-img .works-link div {
+  border-radius: 50%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem;
+  font-family: var(--font-base);
+  font-weight: 800;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.projects .projects_container .projects_works .projects_works-item .works-img .works-link div svg {
+  width: 50%;
+  height: 50%;
+  color: var(--white-color);
+}
+
+.projects .projects_container .projects_works .projects_works-item .works-content {
+  padding: 0.5rem;
+  width: 100%;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projects .projects_container .projects_works .projects_works-item .works-content .works-title {
+  padding: 0.15rem 0rem 0 10px;
+  font-weight: 700;
+}
+
+.projects .projects_container .projects_works .projects_works-item .works-content .works-desc {
+  font-size: 12px;
+}
+/*# sourceMappingURL=projects.css.map */

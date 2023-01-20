@@ -1,0 +1,270 @@
+{
+	"data": [
+		{
+			"lang": "english",
+			"section": {
+				"navbar": [
+					{ "id": 1, "href": "#home", "title": "Home" },
+					{ "id": 2, "href": "#about", "title": "About" },
+					{ "id": 3, "href": "#skills", "title": "Skills" },
+					{ "id": 4, "href": "#projects", "title": "Projects" },
+					{ "id": 5, "href": "#contact", "title": "Contact" }
+				],
+				"home": {
+					"title": "HACHEM KHALIDI",
+					"subtitle": "Web Development",
+					"desc": "I'm an independent creative developer from MOROCCO",
+					"btn": "say Hello",
+					"btn2": "Scrol down"
+				},
+
+				"about": {
+					"title": "About Me",
+					"subtitle": "My introduction",
+					"desc": " Hello! i am HACHEM , a software developer based in MOROCCO. i develop full-blown web apps using the MERN stack, but i mostly love one the Front-end using React or NextJS and CSS.",
+					"info": [
+						{
+							"icon": "dev",
+							"title": "Experience",
+							"daily": "1.5 Years"
+						},
+						{
+							"icon": "photo",
+							"title": "Experience",
+							"daily": "3 Years"
+						}
+					],
+					"btn": "Dowload CV"
+				},
+				"skills": {
+					"title": "Skills",
+					"subtitle": "My technical level"
+				},
+				"projects": {
+					"title": "Projects",
+					"subtitle": "My recent works",
+					"filter": ["Web Dev", "UI/UX", "Photography", "All"],
+					"works": [
+						{ "title": "P1", "desc": "project number one" },
+						{ "title": "P2", "desc": "project number one" },
+						{ "title": "P3", "desc": "project number one" },
+						{ "title": "P4", "desc": "project number one" },
+						{ "title": "P5", "desc": "project number one" },
+						{ "title": "P6", "desc": "project number one" }
+					]
+				},
+				"contact": {
+					"title": "Contact",
+					"subtitle": "Get in Touch",
+					"options": [
+						{
+							"icon": "email",
+							"name": "Email",
+							"social": "hachemkhalidi@gmail.com",
+							"href": "mailto:hachemkhalidi@gmail.com",
+							"link": "Send a message"
+						},
+						{
+							"icon": "messenger",
+							"name": "Messenger",
+							"social": "hachem khaldi",
+							"href": "https://m.me/hicham.khaldi.98",
+							"link": "Send a message"
+						},
+						{
+							"icon": "whatsapp",
+							"name": "Whatsapp",
+							"social": "+212691330338",
+							"href": "https://api.whatsapp.com/send?phone+212691330338",
+							"link": "Send a message"
+						}
+					],
+					"form": {
+						"name": "Your Full Name",
+						"email": "Your Email",
+						"message": "Your Message",
+						"btn": "Send Message"
+					}
+				},
+				"footer": "2022 HACHEM. ALL Rights reserved"
+			}
+		},
+		{
+			"lang": "spanish",
+			"section": {
+				"navbar": [
+					{ "id": 1, "href": "#home", "title": "Bienvenida" },
+					{ "id": 2, "href": "#about", "title": "Sobre" },
+					{ "id": 3, "href": "#skills", "title": "Habilidades" },
+					{ "id": 4, "href": "#projects", "title": "Proyectos" },
+					{ "id": 5, "href": "#contact", "title": "Contacto" }
+				],
+				"home": {
+					"title": "HACHEM KHALIDI",
+					"subtitle": "Web Development",
+					"desc": "I'm Web developer in MOROCCO",
+					"btn": "Hola",
+					"btn2": "Scrol down"
+				},
+
+				"about": {
+					"title": "Acerda de mí",
+					"subtitle": "Mi introduccion",
+					"desc": "Hola! Soy HACHEM , un Desarrollador de sowftware con sede en MARRUECOS. desarrollo aplicaciones web completas usando la pila MERN, pero sobre todo me encanta en el Front-end usando React y CSS ",
+					"info": [
+						{
+							"icon": "dev",
+							"title": "Experiencia",
+							"daily": "1.5 Años"
+						},
+						{
+							"icon": "photo",
+							"title": "Experiencia",
+							"daily": "3 Años"
+						}
+					],
+					"btn": "Descargar CV"
+				},
+				"skills": {
+					"title": "Skills",
+					"subtitle": "My technical level"
+				},
+				"projects": {
+					"title": "Projects",
+					"subtitle": "My recent works",
+					"filter": ["Web Dev", "UI/UX", "Photography", "All"],
+					"works": [
+						{ "title": "P1", "desc": "project number one" },
+						{ "title": "P2", "desc": "project number one" },
+						{ "title": "P3", "desc": "project number one" },
+						{ "title": "P4", "desc": "project number one" },
+						{ "title": "P5", "desc": "project number one" },
+						{ "title": "P6", "desc": "project number one" }
+					]
+				},
+				"contact": {
+					"title": "Contact",
+					"subtitle": "Get in Touch",
+					"options": [
+						{
+							"icon": "email",
+							"name": "Email",
+							"social": "hachemkhalidi@gmail.com",
+							"href": "mailto:hachemkhalidi@gmail.com",
+							"link": "Send a message"
+						},
+						{
+							"icon": "messenger",
+							"name": "Messenger",
+							"social": "hachem khaldi",
+							"href": "https://m.me/hicham.khaldi.98",
+							"link": "Send a message"
+						},
+						{
+							"icon": "whatsapp",
+							"name": "Whatsapp",
+							"social": "+212691330338",
+							"href": "https://api.whatsapp.com/send?phone+212691330338",
+							"link": "Send a message"
+						}
+					],
+					"form": {
+						"name": "Your Full Name",
+						"email": "Your Email",
+						"message": "Your Message",
+						"btn": "Send Message"
+					}
+				},
+				"footer": "2022 HACHEM. ALL Rights reserved"
+			}
+		},
+		{
+			"lang": "frensh",
+			"section": {
+				"navbar": [
+					{ "id": 1, "href": "#home", "title": "Accueil" },
+					{ "id": 2, "href": "#about", "title": "Propos" },
+					{ "id": 3, "href": "#skills", "title": "Competences" },
+					{ "id": 4, "href": "#projects", "title": "Projets" },
+					{ "id": 5, "href": "#contact", "title": "Contact" }
+				],
+				"home": {
+					"title": "HACHEM KHALIDI",
+					"subtitle": "Web Development",
+					"desc": "Je suis Web developer dans MOROCCO",
+					"btn": "Salut",
+					"btn2": "Scrol down"
+				},
+				"about": {
+					"title": "About Me",
+					"subtitle": "My introduction",
+					"desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventoresuscipit ipsa earum. Nostrum autem consequatur ",
+					"info": [
+						{
+							"icon": "dev",
+							"title": "Experience",
+							"daily": "1.5 Years"
+						},
+						{
+							"icon": "photo",
+							"title": "Experience",
+							"daily": "3 Years"
+						}
+					],
+					"btn": "Dowload CV"
+				},
+				"skills": {
+					"title": "Skills",
+					"subtitle": "My technical level"
+				},
+				"projects": {
+					"title": "Projects",
+					"subtitle": "My recent works",
+					"filter": ["Web Dev", "UI/UX", "Photography", "All"],
+					"works": [
+						{ "title": "P1", "desc": "project number one" },
+						{ "title": "P2", "desc": "project number one" },
+						{ "title": "P3", "desc": "project number one" },
+						{ "title": "P4", "desc": "project number one" },
+						{ "title": "P5", "desc": "project number one" },
+						{ "title": "P6", "desc": "project number one" }
+					]
+				},
+				"contact": {
+					"title": "Contact",
+					"subtitle": "Get in Touch",
+					"options": [
+						{
+							"icon": "email",
+							"name": "Email",
+							"social": "hachemkhalidi@gmail.com",
+							"href": "mailto:hachemkhalidi@gmail.com",
+							"link": "Envoyer message"
+						},
+						{
+							"icon": "messenger",
+							"name": "Messenger",
+							"social": "hachem khaldi",
+							"href": "https://m.me/hicham.khaldi.98",
+							"link": "Envoyer message"
+						},
+						{
+							"icon": "whatsapp",
+							"name": "Whatsapp",
+							"social": "+212691330338",
+							"href": "https://api.whatsapp.com/send?phone+212691330338",
+							"link": "Envoyer message"
+						}
+					],
+					"form": {
+						"name": "Your Full Name",
+						"email": "Your Email",
+						"message": "Your Message",
+						"btn": "Envoyer Message"
+					}
+				},
+				"footer": "2022 HACHEM. ALL Rights reserved"
+			}
+		}
+	]
+}

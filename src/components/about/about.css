@@ -1,0 +1,110 @@
+.about {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.about .about_container {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 4rem;
+          column-gap: 4rem;
+  height: 90%;
+  padding: 2rem 1rem;
+}
+
+.about .about_container .about_img {
+  width: 350px;
+  border-radius: 1.5rem;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.about .about_container .about_data .about_info {
+  -ms-grid-columns: (150px)[2];
+      grid-template-columns: repeat(2, 150px);
+  gap: 1rem;
+  margin-bottom: var(--mb-2);
+}
+
+.about .about_container .about_data .about_info .about_box {
+  border: 1px solid gray;
+  border-radius: 0.75rem;
+  text-align: center;
+  padding: 1rem 1.25rem;
+}
+
+.about .about_container .about_data .about_info .about_box .about_icon {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  margin-bottom: var(--mb-0-5);
+}
+
+.about .about_container .about_data .about_info .about_box .about_title {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.about .about_container .about_data .about_info .about_box .about_subtitle {
+  font-size: var(--tiny-font-size);
+}
+
+.about .about_container .about_data .about_desc {
+  padding: 0 4rem 0 0;
+  margin-bottom: var(--mb-2-5);
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .about .about_container {
+    padding: 1rem 0.5rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+  }
+  .about .about_container .about_img {
+    width: 250px;
+  }
+  .about .about_container .about_data {
+    text-align: center;
+  }
+  .about .about_container .about_data .about_info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .about_container .about_data .about_info .about_box {
+    padding: 0.75rem 0.5rem;
+  }
+  .about .about_container .about_data .about_desc {
+    padding: 0 5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+  .about .about_container .about_data .about_info {
+    -ms-grid-columns: (150px)[2];
+        grid-template-columns: repeat(2, 150px);
+  }
+  .about .about_container .about_data .about_desc {
+    padding: 0;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .about {
+    height: 100%;
+  }
+  .about .about_container {
+    padding-bottom: 0.51rem;
+    padding-top: 0.51rem;
+  }
+  .about .about_container .about_data .about_info {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*# sourceMappingURL=about.css.map */

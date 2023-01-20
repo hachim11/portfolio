@@ -1,0 +1,176 @@
+.contact {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding-bottom: 1rem;
+}
+
+.contact .contact_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% 50%;
+      grid-template-columns: 35% 50%;
+  gap: 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact .contact_container .contact_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85%;
+  padding: 1rem 0;
+}
+
+.contact .contact_container .contact_options .contact_option {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 0.5rem;
+  width: 18rem;
+  height: 9rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid #f3eeee;
+}
+
+.contact .contact_container .contact_options .contact_option .option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact .contact_container .contact_options .contact_option a {
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.contact .contact_container .contact_options .contact_option .option-social, .contact .contact_container .contact_options .contact_option .option-name, .contact .contact_container .contact_options .contact_option .option-link {
+  padding-bottom: 8px;
+}
+
+.contact .contact_container .contact_options .contact_option .option-link {
+  color: greenyellow;
+}
+
+.contact .contact_form {
+  gap: 1.2rem;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact_form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+.contact .contact_form form input,
+.contact .contact_form form textarea {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid #1f1f46;
+  resize: none;
+  color: #f1e5e5;
+}
+
+.contact .contact_form form button {
+  margin: auto;
+  font-size: 16px;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .contact .contact_container {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10%;
+  }
+  .contact .contact_container .contact_options .contact__option {
+    width: 19rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+  .contact {
+    padding-top: 2.5rem;
+  }
+  .contact .contact_container {
+    gap: 1rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 0rem 0.01px;
+    width: 100%;
+  }
+  .contact .contact_container .contact_options {
+    width: 80%;
+  }
+  .contact .contact_container .contact_form {
+    width: 80%;
+    padding: 1rem 0;
+    height: 100%;
+  }
+  .contact .contact_container .contact_form form {
+    width: 100%;
+  }
+  .contact .contact_container .contact_form form input,
+  .contact .contact_container .contact_form form textarea {
+    width: 75%;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .contact .contact_container .contact_options {
+    width: 100%;
+  }
+  .contact .contact_container .contact_options .contact__option {
+    width: 16rem;
+  }
+  .contact .contact_container .contact_form {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

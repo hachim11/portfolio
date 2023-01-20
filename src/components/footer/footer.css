@@ -1,0 +1,83 @@
+.footer {
+  background-color: whitesmoke;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer .footer_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .footer_container .footer_title {
+  margin-bottom: 15px;
+}
+
+.footer .footer_container .footer_title a {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer .footer_container .footer_links {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .footer_container .footer_links .icon {
+  font-size: 19px;
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .footer .footer_container {
+    height: 75px;
+  }
+  .footer .footer_container .footer_title a {
+    padding-bottom: 10px;
+  }
+  .footer .footer_container .footer_links {
+    width: 35%;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+  .footer .footer_container {
+    height: 80px;
+  }
+  .footer .footer_container .footer_links {
+    width: 40%;
+  }
+  .footer .footer_container .footer_links .icon {
+    font-size: 17px;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .footer .footer_container .footer_links {
+    width: 35%;
+  }
+  .footer .footer_container .footer_links .icon {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

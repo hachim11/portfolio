@@ -1,0 +1,354 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+	/*========== Colors ==========*/
+	/* --PrimaryColor: hsl(199, 100%, 33%);
+	--SecondaryColor: hsl(187, 85%, 43%);
+	--gradientColor: linear-gradient(
+		to right,
+		hsl(187, 85%, 43%),
+		hsl(199, 100%, 33%)
+	);
+	--whiteColor: hsl(0, 8%, 100%);
+	--blackColor: hsl(281, 33%, 16%);
+	--textColor: hsl(240, 4%, 36%);
+	--whiteColorDeam: hsl(0, 0%, 93%);
+	--greyText: rgb(190, 190, 190);
+	--inputColor: rgb(239, 239, 239);
+	--bodyColor: rgb(240, 240, 246);
+	--cardBG: rgb(255, 255, 235);
+	--header-height: 3rem; */
+
+	/*Color mode HSL(hue, saturation, lightness)*/
+	/* --hue: 0;
+	--sat: 0%;
+	--title-color: hsl(var(--hue), var(--sat), 20%);
+	--title-color-dark: hsl(var(--hue), var(--sat), 0%);
+	--text-color: hsl(var(--hue), var(--sat), 46%);
+	--body-color: hsl(var(--hue), var(--sat), 98%);
+	--container-color: #fff;  */
+--content: rgb(53, 53, 80);
+
+
+
+	--backgroundDark: #172238;
+	--titleDark: #dca62c;
+	--subtitleDark: #dcc275;
+	--textDark: #fbf4e4;
+	--btnDark: #2c6ec4;
+	--iconDark: #aaccdb;
+
+	/*========== Font and typography ==========*/
+	--body-font: "Poppins", sans-serif;
+
+	/*.5rem = 8px | 1rem = 16px ...*/
+	--big-font-size: 3.5rem;
+	--h1-font-size: 2.25rem;
+	--h2-font-size: 1.5rem;
+	--h3-font-size: 1.25rem;
+	--normal-font-size: 1rem;
+	--small-font-size: 0.875rem;
+	--smaller-font-size: 0.813rem;
+	--tiny-font-size: 0.625rem;
+
+	/*========== Font weight ==========*/
+	--font-normal: 400;
+	--font-medium: 500;
+	--font-semi-bold: 600;
+
+	/*========== Margenes Bottom ==========*/
+	/*.5rem = 8px | 1rem = 16px ...*/
+	--mb-0-25: 0.25rem;
+	--mb-0-5: 0.5rem;
+	--mb-0-75: 0.75rem;
+	--mb-1: 1rem;
+	--mb-1-5: 1.5rem;
+	--mb-2: 2rem;
+	--mb-2-5: 2.5rem;
+	--mb-3: 3rem;
+
+	/*========== z index ==========*/
+	--z-tooltip: 10;
+	--z-fixed: 100;
+	--z-modal: 1000;
+}
+
+/* Responsive typography */
+@media screen and (max-width: 992px) {
+	:root {
+		--big-font-size: 2.75rem;
+		--h1-font-size: 1.5rem;
+		--h2-font-size: 1.25rem;
+		--h3-font-size: 1rem;
+		--normal-font-size: 0.938rem;
+		--small-font-size: 0.813rem;
+		--smaller-font-size: 0.75rem;
+	}
+}
+
+/*===============DarkMode=============*/
+
+#dark {
+	background-color: var(--backgroundDark);
+}
+#dark .section_title, .title{
+	color: var(--titleDark);
+}
+#dark .section_subtitle {
+	color: var(--subtitleDark);
+}
+#dark .footer {
+	background-color: rgb(31, 31, 28);
+	color: #fff;
+}
+#dark .icon {
+	color: var(--iconDark);
+}
+#dark .txt {
+	color: var(--textDark);
+	
+}
+#dark .div {
+	color: var(--textDark);
+	
+}
+
+/* #dark .btn {
+	background-color: var(--btnDark);
+	color: var(--subtitleDark);
+} */
+/* #light .header {
+	color: rgb(172, 165, 179);
+} */
+/* #light a{
+	color: rgb(10, 9, 10);
+	color: rgb(54, 64, 45);
+} */
+/* #dark a{
+	color: rgb(174, 220, 133);
+	color: rgb(174, 220, 133);
+	color: rgb(174, 220, 133);
+} */
+
+/*=============== BASE ===============*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+}
+
+body {
+	background-color: white;
+	/* background-color: var(--body-color); */
+	/* color: var(--text-color); */
+}
+/* section {
+	height: 100vh;
+	
+	height: 100vh;
+	border: 2px solid rebeccapurple; 
+} */
+
+h1,
+h2,
+h3 {
+	/* color: var(--title-color); */
+	font-weight: var(--font-semi-bold);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	/* color: #fbf4e4; */
+}
+
+img {
+	/*max-width: 90%;*/
+	/* height: auto; */
+	border-radius: 5px;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+	padding: 4rem 1rem;
+	/* background-color: white; */
+	
+}
+.container {
+	/* background-color: whitesmoke; */
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+
+	/* border: 2px solid rgb(231, 6, 81); */
+	/* width: 98%; */
+	margin: auto;
+	/* background-color: blueviolet; */
+}
+.icon {
+	font-size: 2rem;
+	cursor: pointer;
+	color: #172238;
+
+}
+.iconLight, .iconDark , .iconLang{
+	cursor: pointer;
+	font-size: 1.45rem;
+	border-radius: 50%;
+	
+	padding: 2px;
+	
+	
+}
+.iconLight {
+	background-color: rgb(36, 78, 160);
+	color: goldenrod;
+	
+
+}
+.iconDark{
+	background-color: #cdebf9;
+	color: #172238;
+}
+.iconLang{
+	background-color: #fff;
+}
+.section_title {
+	font-size: var(--h1-font-size);
+	/* color: var(--title-color); */
+}
+
+.section_subtitle {
+	display: block;
+	font-size: var(--small-font-size);
+	margin-bottom: 4rem;
+}
+
+.section_title,
+.section_subtitle {
+	text-align: center;
+}
+.content{
+	background-color:var(--content);
+	color: white;
+}
+
+/*=============== LAYOUT ===============*/
+
+.grid {
+	display: grid;
+	align-items: center;
+	gap: 1.5rem;
+}
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+/*=============== BUTTONS ===============*/
+.btn {
+	background: var(--gradientColor);
+	display: inline-block;
+	width: 150px;
+
+	height: 48px;
+	/* color: white; */
+	border-radius: 0.51rem;
+	font-weight: var(--font-medium);
+	text-align: center;
+	color: white;
+}
+.btn a {
+	/* color: var(--whiteColor); */
+	font-weight: 500;
+	color: white;
+}
+
+/* .btn:hover {
+	background-color: var(--backgroundDark);
+} */
+
+.btn--flex {
+	/* background-color: #172238; */
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*=============== BREAKPOINTS ===============*/
+
+@media screen and (min-width: 1240px) {
+	.container {
+		width: 80% !important;
+		/* margin: auto !important; */
+	}
+	.section {
+		padding: 6rem 0 4rem;
+	}
+}
+
+@media screen and (min-width: 2560px) {
+	body {
+		zoom: 1.7;
+	}
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+	
+	.btn {
+		width: 120px;
+		padding: 0.5rem 0.1rem;
+		font-size: 15px;
+	}
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+	
+	.section {
+		/* background-color: gray; */
+
+		padding: 1rem 0 1rem;
+	}
+
+	.section_subtitle {
+		margin-bottom: var(--mb-3);
+	}
+	
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+	:root {
+		--big-font-size: 2.25rem;
+	}
+
+
+}
