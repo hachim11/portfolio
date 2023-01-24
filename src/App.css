@@ -4,34 +4,8 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
 	/*========== Colors ==========*/
-	/* --PrimaryColor: hsl(199, 100%, 33%);
-	--SecondaryColor: hsl(187, 85%, 43%);
-	--gradientColor: linear-gradient(
-		to right,
-		hsl(187, 85%, 43%),
-		hsl(199, 100%, 33%)
-	);
-	--whiteColor: hsl(0, 8%, 100%);
-	--blackColor: hsl(281, 33%, 16%);
-	--textColor: hsl(240, 4%, 36%);
-	--whiteColorDeam: hsl(0, 0%, 93%);
-	--greyText: rgb(190, 190, 190);
-	--inputColor: rgb(239, 239, 239);
-	--bodyColor: rgb(240, 240, 246);
-	--cardBG: rgb(255, 255, 235);
-	--header-height: 3rem; */
 
-	/*Color mode HSL(hue, saturation, lightness)*/
-	/* --hue: 0;
-	--sat: 0%;
-	--title-color: hsl(var(--hue), var(--sat), 20%);
-	--title-color-dark: hsl(var(--hue), var(--sat), 0%);
-	--text-color: hsl(var(--hue), var(--sat), 46%);
-	--body-color: hsl(var(--hue), var(--sat), 98%);
-	--container-color: #fff;  */
---content: rgb(53, 53, 80);
-
-
+	--content: rgb(53, 53, 80);
 
 	--backgroundDark: #172238;
 	--titleDark: #dca62c;
@@ -93,7 +67,8 @@
 #dark {
 	background-color: var(--backgroundDark);
 }
-#dark .section_title, .title{
+#dark .section_title,
+.title {
 	color: var(--titleDark);
 }
 #dark .section_subtitle {
@@ -108,29 +83,10 @@
 }
 #dark .txt {
 	color: var(--textDark);
-	
 }
 #dark .div {
 	color: var(--textDark);
-	
 }
-
-/* #dark .btn {
-	background-color: var(--btnDark);
-	color: var(--subtitleDark);
-} */
-/* #light .header {
-	color: rgb(172, 165, 179);
-} */
-/* #light a{
-	color: rgb(10, 9, 10);
-	color: rgb(54, 64, 45);
-} */
-/* #dark a{
-	color: rgb(174, 220, 133);
-	color: rgb(174, 220, 133);
-	color: rgb(174, 220, 133);
-} */
 
 /*=============== BASE ===============*/
 * {
@@ -153,20 +109,11 @@ textarea {
 
 body {
 	background-color: white;
-	/* background-color: var(--body-color); */
-	/* color: var(--text-color); */
 }
-/* section {
-	height: 100vh;
-	
-	height: 100vh;
-	border: 2px solid rebeccapurple; 
-} */
 
 h1,
 h2,
 h3 {
-	/* color: var(--title-color); */
 	font-weight: var(--font-semi-bold);
 }
 
@@ -183,62 +130,49 @@ button {
 	cursor: pointer;
 	border: none;
 	outline: none;
-	/* color: #fbf4e4; */
 }
 
 img {
-	/*max-width: 90%;*/
-	/* height: auto; */
 	border-radius: 5px;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
 	padding: 4rem 1rem;
-	/* background-color: white; */
-	
 }
 .container {
-	/* background-color: whitesmoke; */
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 
-	/* border: 2px solid rgb(231, 6, 81); */
-	/* width: 98%; */
 	margin: auto;
-	/* background-color: blueviolet; */
 }
 .icon {
 	font-size: 2rem;
 	cursor: pointer;
 	color: #172238;
-
 }
-.iconLight, .iconDark , .iconLang{
+.iconLight,
+.iconDark,
+.iconLang {
 	cursor: pointer;
 	font-size: 1.45rem;
 	border-radius: 50%;
-	
+
 	padding: 2px;
-	
-	
 }
 .iconLight {
 	background-color: rgb(36, 78, 160);
 	color: goldenrod;
-	
-
 }
-.iconDark{
+.iconDark {
 	background-color: #cdebf9;
 	color: #172238;
 }
-.iconLang{
+.iconLang {
 	background-color: #fff;
 }
 .section_title {
 	font-size: var(--h1-font-size);
-	/* color: var(--title-color); */
 }
 
 .section_subtitle {
@@ -251,8 +185,8 @@ img {
 .section_subtitle {
 	text-align: center;
 }
-.content{
-	background-color:var(--content);
+.content {
+	background-color: var(--content);
 	color: white;
 }
 
@@ -275,24 +209,17 @@ img {
 	width: 150px;
 
 	height: 48px;
-	/* color: white; */
 	border-radius: 0.51rem;
 	font-weight: var(--font-medium);
 	text-align: center;
 	color: white;
 }
 .btn a {
-	/* color: var(--whiteColor); */
 	font-weight: 500;
 	color: white;
 }
 
-/* .btn:hover {
-	background-color: var(--backgroundDark);
-} */
-
 .btn--flex {
-	/* background-color: #172238; */
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -303,7 +230,6 @@ img {
 @media screen and (min-width: 1240px) {
 	.container {
 		width: 80% !important;
-		/* margin: auto !important; */
 	}
 	.section {
 		padding: 6rem 0 4rem;
@@ -318,7 +244,6 @@ img {
 
 /* For large devices */
 @media screen and (max-width: 992px) {
-	
 	.btn {
 		width: 120px;
 		padding: 0.5rem 0.1rem;
@@ -328,17 +253,13 @@ img {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-	
 	.section {
-		/* background-color: gray; */
-
 		padding: 1rem 0 1rem;
 	}
 
 	.section_subtitle {
 		margin-bottom: var(--mb-3);
 	}
-	
 }
 
 @media screen and (max-width: 576px) {
@@ -349,6 +270,4 @@ img {
 	:root {
 		--big-font-size: 2.25rem;
 	}
-
-
 }

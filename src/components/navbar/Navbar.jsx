@@ -11,7 +11,6 @@ const Navbar = ( ) => {
 	const { theme, setTheme } = useContext(ThemeContext);
 	const { data, navigator, langNavigator } = useContext(DataContext);
 	const arr = Object.entries(data);
-	// console.log(arr);
 	const [active, setActive] = useState("navBar");
 	const [lang, setLang] = useState("language");
 	const showNav = () => {
@@ -35,7 +34,7 @@ const Navbar = ( ) => {
 			<header className="header flex">
 				<div className="logoDiv">
 					<a href="#home" className="logo">
-						<h1>Hach.</h1>
+						<h1 className="icon">Hach.</h1>
 					</a>
 				</div>
 				<div className="mobileTheme">

@@ -7,7 +7,7 @@ const Backend = ({ data }) => {
 			<h3 className="skills_title content">Back-end</h3>
 			<div className="div" />
 			<div className="skills_group content">
-				{data.map((i) => (
+				{data.map((i,index) => (
 					<div className="skills_data" key={i.id}>
 						<div>
 							<img src={i.img} alt="t" />

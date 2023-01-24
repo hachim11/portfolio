@@ -43,14 +43,15 @@
 				"projects": {
 					"title": "Projects",
 					"subtitle": "My recent works",
-					"filter": ["Web Dev", "UI/UX", "Photography", "All"],
+					"option":"All",
+					"options": ["Web App", "Mobile App", "Photography", "All"],
 					"works": [
-						{ "title": "P1", "desc": "project number one" },
-						{ "title": "P2", "desc": "project number one" },
-						{ "title": "P3", "desc": "project number one" },
-						{ "title": "P4", "desc": "project number one" },
-						{ "title": "P5", "desc": "project number one" },
-						{ "title": "P6", "desc": "project number one" }
+						{ "title": "P1", "desc": "project number one" , "tag":"Web App" },
+						{ "title": "P2", "desc": "project number one" , "tag":"Web App" },
+						{ "title": "P3", "desc": "project number one" , "tag":"Web App" },
+						{ "title": "P4", "desc": "project number one" , "tag":"Web App" },
+						{ "title": "P5", "desc": "project number one" , "tag":"Mobile App" },
+						{ "title": "P6", "desc": "project number one" , "tag":"Photography" }
 					]
 				},
 				"contact": {
@@ -86,7 +87,7 @@
 						"btn": "Send Message"
 					}
 				},
-				"footer": "2022 HACHEM. ALL Rights reserved"
+				"footer": "2023 HACHEM. ALL Rights reserved"
 			}
 		},
 		{
@@ -126,24 +127,25 @@
 					"btn": "Descargar CV"
 				},
 				"skills": {
-					"title": "Skills",
+					"title": "Skills esp",
 					"subtitle": "My technical level"
 				},
 				"projects": {
-					"title": "Projects",
+					"title": "Projects Esp",
 					"subtitle": "My recent works",
-					"filter": ["Web Dev", "UI/UX", "Photography", "All"],
+					"option":"Todas",
+					"options": ["Aplicacion Web", "Aplicacion Movil", "Fotografia", "Todas"],
 					"works": [
-						{ "title": "P1", "desc": "project number one" },
-						{ "title": "P2", "desc": "project number one" },
-						{ "title": "P3", "desc": "project number one" },
-						{ "title": "P4", "desc": "project number one" },
-						{ "title": "P5", "desc": "project number one" },
-						{ "title": "P6", "desc": "project number one" }
+						{ "title": "P1", "desc": "project number one" , "tag":"Aplicacion Web" },
+						{ "title": "P2", "desc": "project number one" , "tag":"Aplicacion Web" },
+						{ "title": "P3", "desc": "project number one" , "tag":"Aplicacion Web" },
+						{ "title": "P4", "desc": "project number one" , "tag":"Aplicacion Web" },
+						{ "title": "P5", "desc": "project number one" , "tag":"Aplicacion Movil" },
+						{ "title": "P6", "desc": "project number one" , "tag":"Fotografia" }
 					]
 				},
 				"contact": {
-					"title": "Contact",
+					"title": "Contact esp",
 					"subtitle": "Get in Touch",
 					"options": [
 						{
@@ -151,31 +153,31 @@
 							"name": "Email",
 							"social": "hachemkhalidi@gmail.com",
 							"href": "mailto:hachemkhalidi@gmail.com",
-							"link": "Send a message"
+							"link": "Send a message esp"
 						},
 						{
 							"icon": "messenger",
 							"name": "Messenger",
 							"social": "hachem khaldi",
 							"href": "https://m.me/hicham.khaldi.98",
-							"link": "Send a message"
+							"link": "Send a message esp"
 						},
 						{
 							"icon": "whatsapp",
 							"name": "Whatsapp",
 							"social": "+212691330338",
 							"href": "https://api.whatsapp.com/send?phone+212691330338",
-							"link": "Send a message"
+							"link": "Send a message esp"
 						}
 					],
 					"form": {
-						"name": "Your Full Name",
+						"name": "Your Full Name esp",
 						"email": "Your Email",
 						"message": "Your Message",
 						"btn": "Send Message"
 					}
 				},
-				"footer": "2022 HACHEM. ALL Rights reserved"
+				"footer": "2023 HACHEM. ALL Rights reserved"
 			}
 		},
 		{
@@ -220,14 +222,15 @@
 				"projects": {
 					"title": "Projects",
 					"subtitle": "My recent works",
-					"filter": ["Web Dev", "UI/UX", "Photography", "All"],
+					"option":"Toute",
+					"options": ["App Web", "App Mobile", "Photographie", "Toute"],
 					"works": [
-						{ "title": "P1", "desc": "project number one" },
-						{ "title": "P2", "desc": "project number one" },
-						{ "title": "P3", "desc": "project number one" },
-						{ "title": "P4", "desc": "project number one" },
-						{ "title": "P5", "desc": "project number one" },
-						{ "title": "P6", "desc": "project number one" }
+						{ "title": "P1", "desc": "project number one" , "tag":"App Web" },
+						{ "title": "P2", "desc": "project number one" , "tag":"App Web" },
+						{ "title": "P3", "desc": "project number one" , "tag":"App Web" },
+						{ "title": "P4", "desc": "project number one" , "tag":"App Web" },
+						{ "title": "P5", "desc": "project number one" , "tag":"App Mobile" },
+						{ "title": "P6", "desc": "project number one" , "tag":"Photographie" }
 					]
 				},
 				"contact": {

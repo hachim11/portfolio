@@ -1,5 +1,4 @@
 .skills {
-	// background-color: orange;
 	.skills_container {
 		grid-template-columns: repeat(2, 500px);
 		column-gap: 3rem;
@@ -8,37 +7,29 @@
 
 		.skills_content {
 			display: grid;
-			// background-color: red;
 			border: 1px solid rgba(0, 0, 0, 0.1);
 			padding: 2rem 2rem;
 			width: 100%;
-			// height: max-content;
 			border-radius: 1.25rem;
-			// background-color: orangered;
 			grid-template-rows: 10% 5% 85%;
-			// background-color: rgb(98, 98, 95);
 			height: 310px;
 
-			// row-gap: 5%;
 			.skills_title {
 				font-size: var(--normal-font-size);
 
 				font-weight: 600;
 				text-align: center;
 				margin-bottom: var(--mb-1-5);
-				//  background-color: rgb(251, 242, 242);
 				height: 30px;
 				width: 100%;
 				display: flex;
 				align-items: center;
 				justify-content: center;
 				border-radius: 15px 15px 0 0;
-				// color: whitesmoke;
 			}
 			.div {
 				width: 80px;
 				height: 20px;
-				//  background-color: blue;
 				margin: auto;
 				border-left: 3px solid var(--content);
 				border-right: 3px solid var(--content);
@@ -49,11 +40,9 @@
 
 				grid-template-columns: repeat(3, 1fr);
 				display: grid;
-				// align-items: flex-start;
 
 				height: 100%;
 				padding-bottom: 1.7rem;
-				// background-color: red;
 				.skills_data {
 					div {
 						display: flex;
@@ -90,9 +79,6 @@
 			grid-template-columns: repeat(2, 430px);
 
 			row-gap: 1rem;
-			// .skills_content {
-			// 	// background-color: aqua;
-			// }
 		}
 	}
 }
@@ -122,9 +108,7 @@
 @media screen and (max-width: 350px) {
 	.skills {
 		.skills_container {
-			//background-color: yellowgreen;
 			.skills_content {
-				//background-color: orangered;
 				width: 100%;
 				.skills_title {
 					width: 100%;

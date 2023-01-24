@@ -5,7 +5,7 @@ import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import { DataContext } from "../Main";
-// import emailjs from "emailjs-com";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
 	const { data } = useContext(DataContext);
@@ -13,22 +13,24 @@ const Contact = () => {
 	// const option = arr.map((item) => item[1].section.contact.options);
 	const forms = arr.map((item) => item[1].section.contact.form);
 	const form = useRef();
-	// const sendEmail = (e) => {
-	// 	e.preventDefault();
+	 const sendEmail = (e) => {
+	 	e.preventDefault();
 
-	// 	emailjs.sendForm(
-	// 		"service_g9vhsnb",
-	// 		"template_f7ymbir",
-	// 		form.current,
-	// 		"Or8onvwilpUeP-0LW"
-	// 	);
-	// 	e.target.reset();
-	// };
+	 	emailjs.sendForm(
+	 		"service_g9vhsnb",
+	 		"template_f7ymbir",
+	 		form.current,
+	 		"Or8onvwilpUeP-0LW"
+	 	);
+	 	e.target.reset();
+	 };
 
 	return (
 		<section className="section contact" id="contact">
-			<h2 className="section_title">Contact Me</h2>
-			<span className="section_subtitle">Get In Touch</span>
+			<h2 className="section_title">{arr.map((item) =>
+						item[1].section.contact.title)}</h2>
+			<span className="section_subtitle">{arr.map((item) =>
+						item[1].section.contact.subtitle)}</span>
 
 			<div className="container contact_container">
 				<div className="contact_options">
@@ -56,9 +58,8 @@ const Contact = () => {
 					)}
 				</div>
 				<div className="contact_form">
-				{/* <form ref={form} onSubmit={sendEmail}> */}
 					{forms.map((i,index) => (
-						<form ref={form} 	key={index}>
+						<form ref={form}  onSubmit={sendEmail}	key={index}>
 							<input
 						
 								className="content"

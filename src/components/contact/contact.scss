@@ -1,40 +1,28 @@
 .contact {
-	// background-color: blue;
-	// border: 2px solid black;
 	height: max-content;
-	padding-bottom: 1rem;
+	padding-bottom: 1.5rem;
 
 	.contact_container {
-		// background-color: orangered;
-		// border: 2px solid blue;
-		// width: 65%;
 		display: grid;
 		grid-template-columns: 35% 50%;
 		gap: 15%;
 		align-items: center;
 		justify-content: center;
 		.contact_options {
-			// background-color: gray;
 			display: flex;
 			flex-direction: column;
 			gap: 1.2rem;
-			// padding-bottom: 1rem;
-			// padding-top: 1rem;
 			align-items: center;
-			// margin: 2rem 0;
 			height: 85%;
-			// width: max-content;
 			padding: 1rem 0;
 			.contact_option {
-				// background: whitesmoke;
 				flex-direction: column;
 				padding-top: 0.5rem;
 				width: 18rem;
 				height: 9rem;
 				border-radius: 1.2rem;
 				text-align: center;
-				 border: 1px solid rgb(243, 238, 238);
-				// transition: var(--transition);
+				border: 1px solid rgb(243, 238, 238);
 				.option-icon {
 					font-size: 1.5rem;
 					margin-bottom: 0.5rem;
@@ -44,32 +32,26 @@
 					display: inline-block;
 					font-size: 0.8rem;
 				}
-				.option-social, .option-name, .option-link{
+				.option-social,
+				.option-name,
+				.option-link {
 					padding-bottom: 8px;
-					// background-color: yellow;
 				}
-				.option-link{
+				.option-link {
 					color: greenyellow;
 				}
 			}
-			// .contact_option:hover {
-			// 	background: transparent;
-			// 	color: blueviolet;
-			// 	border: 1px solid var(--);
-			// }
 		}
 	}
 	.contact_form {
 		gap: 1.2rem;
 		width: 100%;
-		// background-color: lawngreen;
 		justify-content: center;
 		height: 85%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		form {
-			// background-color: aqua;
 			display: flex;
 			flex-direction: column;
 			gap: 1.2rem;
@@ -80,14 +62,13 @@
 				width: 100%;
 				padding: 1rem 1.5rem;
 				border-radius: 0.5rem;
-				// background: rgb(249, 246, 246);
 				border: 2px solid rgb(31, 31, 70);
 				resize: none;
 				color: rgb(241, 229, 229);
 			}
 			button {
 				margin: auto;
-				font-size: 16px;
+				font-size: 15px;
 				min-width: max-content;
 			}
 		}
@@ -101,7 +82,6 @@
 		.contact_container {
 			justify-items: center;
 			align-items: center;
-			// width: 90%;
 			gap: 10%;
 			.contact_options {
 				.contact__option {
@@ -119,15 +99,12 @@
 		.contact_container {
 			gap: 1rem;
 			grid-template-columns: 1fr;
-			//  background-color: yellow;
 			padding: 0rem 0.01px;
 			width: 100%;
 			.contact_options {
-				// background-color: orangered;
 				width: 80%;
 			}
 			.contact_form {
-				// background-color: green;
 				width: 80%;
 				padding: 1rem 0;
 				height: 100%;
@@ -148,7 +125,6 @@
 	.contact {
 		.contact_container {
 			.contact_options {
-				// background-color: orangered;
 				width: 100%;
 				.contact__option {
 					width: 16rem;
@@ -156,7 +132,6 @@
 			}
 			.contact_form {
 				width: 100%;
-				// background-color: orange;
 			}
 		}
 	}

@@ -23,7 +23,8 @@ const Main = () => {
 			<select
 				value={language}
 				onChange={(e) => {
-					setLanguage(e.target.value);
+					localStorage.setItem("val", e.target.value);
+					window.location.reload();
 				}}
 			>
 				<option>english</option>
@@ -32,36 +33,56 @@ const Main = () => {
 			</select>
 		</div>
 	);
+	useEffect(() => {
+		setLanguage(localStorage.getItem("val"));
+
+	}, [language]);
 
 	const langNavigator = (
 		<ul className="langLists flex">
-			<li className="icon" onClick={() => setLanguage("english")}>
+			<li
+				className="icon"
+				onClick={() => {
+					localStorage.setItem("val", "english");
+					window.location.reload();
+				}}
+			>
 				🟡
 			</li>
-			<li className="icon" onClick={() => setLanguage("spanish")}>
+			<li
+				className="icon"
+				onClick={() => {
+					localStorage.setItem("val", "spanish");
+					window.location.reload();
+				}}
+			>
 				🔵
 			</li>
-			<li className="icon" onClick={() => setLanguage("frensh")}>
+			<li
+				className="icon"
+				onClick={() => {
+					localStorage.setItem("val", "frensh");
+					window.location.reload();
+				}}
+			>
 				🔴
 			</li>
 		</ul>
 	);
 	useEffect(() => {
+		if (language === "english") {
+			setData(translation.data.filter((item) => item.lang === "english"));
+			
+		} else if (language === "spanish") {
+			
+			setData(translation.data.filter((item) => item.lang === "spanish"));
 
-		setTimeout(()=>{
-
-			if (language === "english") {
-				setData(translation.data.filter((item) => item.lang === "english"));
-			} else if (language === "spanish") {
-				setData(translation.data.filter((item) => item.lang === "spanish"));
-			} else if (language === "frensh") {
-				setData(translation.data.filter((item) => item.lang === "frensh"));
-			}
-		},2000)
+		} else if (language === "frensh") {
+			
+			setData(translation.data.filter((item) => item.lang === "frensh"));
+		}
 	}, [language]);
-	
-	// console.log(data.map((i)=>(i)))
-	// console.log(translation);
+
 	
 	
 
@@ -74,7 +95,7 @@ const Main = () => {
 				<Skills data={data} />
 				<Projects data={data} />
 				<Contact data={data} />
-			<Footer data={data} />
+				<Footer data={data} />
 			</div>
 		</DataContext.Provider>
 	);

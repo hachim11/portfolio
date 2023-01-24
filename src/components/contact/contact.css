@@ -2,7 +2,7 @@
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .contact .contact_container {
@@ -58,7 +58,9 @@
   font-size: 0.8rem;
 }
 
-.contact .contact_container .contact_options .contact_option .option-social, .contact .contact_container .contact_options .contact_option .option-name, .contact .contact_container .contact_options .contact_option .option-link {
+.contact .contact_container .contact_options .contact_option .option-social,
+.contact .contact_container .contact_options .contact_option .option-name,
+.contact .contact_container .contact_options .contact_option .option-link {
   padding-bottom: 8px;
 }
 
@@ -112,7 +114,7 @@
 
 .contact .contact_form form button {
   margin: auto;
-  font-size: 16px;
+  font-size: 15px;
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;

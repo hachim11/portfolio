@@ -20,14 +20,14 @@ const data = [
 			{ id: 3, name: "JavaScrip", img: js },
 			{ id: 4, name: "ReactJS", img: react },
 			{ id: 5, name: "NextJS", img: nextjs},
-			{ id: 5, name: "Git", img: git },
+			{ id: 6, name: "Git", img: git },
 		],
 		backend: [
 			{ id: 1, name: "NodeJS", img: node },
 			{ id: 2, name: "Express", img: express },
 			{ id: 3, name: "MongoDB", img: mongo },
-			{ id: 3, name: "FireBase", img: firebase },
-			{ id: 3, name: "Sanity", img: sanity },
+			{ id: 4, name: "FireBase", img: firebase },
+			{ id: 5, name: "Sanity", img: sanity },
 		],
 	},
 ];

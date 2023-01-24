@@ -21,28 +21,22 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	// background: var(--whiteColorDeam);
 	background-color: var(--btnDark);
 
 	box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
-	// background-color: red;
 	width: 100%;
 	padding: 1rem;
 	z-index: 1000;
 	.logoDiv {
-		background-color: yellow;
 		font-weight: 600;
-		// cursor: pointer;
+		cursor: pointer;
 		align-items: center;
 		justify-content: center;
 		.logo {
-			
-
 			h1 {
-				font-size: 30px;
-				// color: var(--PrimaryColor);
-				//  transform: translateZ(15px);
-				background-color: red;
+				font-size: 25px;
+color: white;
+				//background-color: red;
 			}
 		}
 	}
@@ -102,11 +96,7 @@
 		.languageBtn {
 			.icon {
 				font-size: 18px;
-				// color: var(--PrimaryColor) !important;
 			}
-			// &:hover {
-			// 	// color: var(--SecondaryColor);
-			// }
 		}
 	}
 
@@ -114,7 +104,6 @@
 		.navBar {
 			position: absolute;
 			background-color: var(--btnDark);
-			// background: var(--whiteColorDeam);
 			height: max-content;
 			width: 80%;
 			border-radius: 1rem;
@@ -138,21 +127,10 @@
 					padding: 0.5rem 0;
 
 					.navLink {
-						// color: var(--textColor);
 						font-size: 0.9rem;
 						font-weight: 600;
-						// &:hover {
-						// 	// color: var(--PrimaryColor);
-						// }
 					}
 				}
-				// .btn {
-				// 	margin-top: 1rem;
-				// 	a {
-				// 		font-weight: 600;
-				// 		color: var(--whiteColor);
-				// 	}
-				// }
 			}
 			.langSmall {
 				display: flex;
@@ -166,9 +144,6 @@
 				.icon {
 					color: whitesmoke;
 				}
-				// &:hover {
-				// 	// color: var(--SecondaryColor);
-				// }
 			}
 		}
 		.setting {
@@ -199,9 +174,6 @@
 			font-size: 25px;
 			color: white;
 		}
-		// &:hover {
-		// 	// color: var(--SecondaryColor);
-		// }
 	}
 }
 
@@ -223,7 +195,6 @@
 
 			.navItem {
 				.navLink {
-					// color: var(--textColor);
 					padding: 0 0.45rem;
 					font-size: 0.9em;
 					font-weight: 500;
