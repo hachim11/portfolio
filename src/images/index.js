@@ -1,6 +1,9 @@
-import Img1 from "./1.jpg";
-
-import Img4 from "./4.jpg";
+import logo from "./logo1.png";
+import aboutImg from "./about3.gif";
+ 
+import en from "./en.png"
+import es from "./es.png"
+import fr from "./fr.png"
 
 import html from "./html.png";
 import css from "./css.png";
@@ -13,9 +16,20 @@ import mongo from "./mongodb.png";
 import nextjs from "./nextjs.png";
 import firebase from "./firebase.png";
 import sanity from "./sanity.png";
+
+import p1 from "./phot.png";
+import p2 from "./shop1.png";
+import p3 from "./memories.png";
+import p4 from "./portfolio.png";
+import p5 from "./native.png";
+import p6 from "./photography.png";
+
 export {
-	Img1,
-	Img4,
+	logo,
+	en,
+	es,
+	fr,
+	aboutImg,
 	html,
 	css,
 	react,
@@ -27,4 +41,10 @@ export {
 	nextjs,
 	firebase,
 	sanity,
+	p1,
+	p2,
+	p3,
+	p4,
+	p5,
+	p6
 };

@@ -23,10 +23,10 @@ const Footer = () => {
 					<a href="https://www.linkedin.com/in/hachem-khalidi-824783255">
 						<FaLinkedin className="icon" />
 					</a>
-					<a href="http://instagram.com/hachem___11">
+					<a href="http://instagram.com/hachem__11">
 						<FaInstagram className="icon" />
 					</a>
-					<a href="#h">
+					<a href="http://github.com/hachim11">
 						<FaGithub className="icon" />
 					</a>
 				</div>

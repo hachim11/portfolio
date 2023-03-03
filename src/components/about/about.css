@@ -14,10 +14,15 @@
 }
 
 .about .about_container .about_img {
-  width: 350px;
-  border-radius: 1.5rem;
+  width: 500px;
+  border-radius: 0.5rem;
   -ms-grid-column-align: center;
       justify-self: center;
+}
+
+.about .about_container .about_img img {
+  border: 1px solid gray;
+  width: 100%;
 }
 
 .about .about_container .about_data .about_info {
@@ -63,7 +68,7 @@
     row-gap: 2.5rem;
   }
   .about .about_container .about_img {
-    width: 250px;
+    width: 400px;
   }
   .about .about_container .about_data {
     text-align: center;
@@ -84,6 +89,9 @@
 
 /* For medium devices */
 @media screen and (max-width: 576px) {
+  .about .about_container .about_img {
+    width: 340px;
+  }
   .about .about_container .about_data .about_info {
     -ms-grid-columns: (150px)[2];
         grid-template-columns: repeat(2, 150px);

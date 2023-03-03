@@ -45,8 +45,7 @@
 				border-radius: 0.5rem;
 				background-color: #fff;
 				color: rgb(250, 246, 246);
-
-				background-color: rgb(53, 53, 80);
+				background-color: #1f1842;
 				cursor: pointer;
 				transition: all 0.3s ease;
 
@@ -60,9 +59,9 @@
 
 					img {
 						width: 100%;
-						height: 100%;
+						// height: 100%;
 						border-radius: 0.5rem;
-						object-fit: cover;
+						object-fit: contain;
 					}
 					&:hover {
 						.works-link {
@@ -109,17 +108,23 @@
 					}
 				}
 				.works-content {
-					padding: 0.5rem;
+					padding: 0.35rem;
 					width: 100%;
 					position: relative;
+					justify-content: center;
+					display: flex;
 					flex-direction: column;
+					//border: 1px solid;
+					align-items: center;
+					padding-top: 13px;
 
 					.works-title {
-						padding: 0.15rem 0rem 0 10px;
-						font-weight: 700;
+						padding: 0.15rem 0rem 0 1px;
+						font-weight: 600;
 					}
 					.works-desc {
-						font-size: 12px;
+						font-size: 11px;
+						text-align:center;
 					}
 				}
 			}

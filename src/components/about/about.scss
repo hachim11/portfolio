@@ -2,14 +2,22 @@
 	height: max-content;
 	.about_container {
 		grid-template-columns: repeat(2, 1fr);
-      
+
 		column-gap: 4rem;
 		height: 90%;
 		padding: 2rem 1rem;
 		.about_img {
-			width: 350px;
-			border-radius: 1.5rem;
+			width: 500px;
+			border-radius: 0.5rem;
 			justify-self: center;
+			// object-fit: cover;
+			img {
+				border: 1px solid gray;
+				width: 100%;
+				
+			
+				
+			}
 		}
 		.about_data {
 			.about_info {
@@ -53,7 +61,8 @@
 			grid-template-columns: 1fr;
 			row-gap: 2.5rem;
 			.about_img {
-				width: 250px;
+				width: 400px;
+
 			}
 			.about_data {
 				text-align: center;
@@ -75,12 +84,12 @@
 /* For medium devices */
 @media screen and (max-width: 576px) {
 	.about {
-
 		.about_container {
-          
-            
+			.about_img {
+				width: 340px;
+			}
+
 			.about_data {
-                
 				.about_info {
 					grid-template-columns: repeat(2, 150px);
 				}
@@ -95,12 +104,12 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
 	.about {
-        height: 100%;
-        
+		height: 100%;
+
 		.about_container {
-            padding-bottom: 0.51rem ;
-            padding-top: 0.51rem ;
-           
+			padding-bottom: 0.51rem;
+			padding-top: 0.51rem;
+
 			.about_data {
 				.about_info {
 					grid-template-columns: repeat(2, 1fr);

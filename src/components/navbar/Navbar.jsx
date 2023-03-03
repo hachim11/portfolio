@@ -6,6 +6,7 @@ import { TbGridDots } from "react-icons/tb";
 import { FaRegMoon, FaRegSun } from "react-icons/fa";
 import { ThemeContext } from "../../App";
 import { DataContext } from "../Main";
+import {logo} from '../../images/index'
 
 const Navbar = ( ) => {
 	const { theme, setTheme } = useContext(ThemeContext);
@@ -34,7 +35,7 @@ const Navbar = ( ) => {
 			<header className="header flex">
 				<div className="logoDiv">
 					<a href="#home" className="logo">
-						<h1 className="icon">Hach.</h1>
+						<img src={logo} alt=''/>
 					</a>
 				</div>
 				<div className="mobileTheme">

@@ -58,6 +58,17 @@
   font-size: 0.8rem;
 }
 
+.contact .contact_container .contact_options .contact_option .option-social {
+  font-size: 18px;
+  font-weight: 600;
+  color: goldenrod;
+}
+
+.contact .contact_container .contact_options .contact_option .option-name {
+  font-size: 14px;
+  font-weight: 100;
+}
+
 .contact .contact_container .contact_options .contact_option .option-social,
 .contact .contact_container .contact_options .contact_option .option-name,
 .contact .contact_container .contact_options .contact_option .option-link {
@@ -113,11 +124,10 @@
 }
 
 .contact .contact_form form button {
-  margin: auto;
-  font-size: 15px;
-  min-width: -webkit-max-content;
-  min-width: -moz-max-content;
-  min-width: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px;
 }
 
 /* For large devices */

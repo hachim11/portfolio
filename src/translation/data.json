@@ -14,8 +14,7 @@
 					"title": "HACHEM KHALIDI",
 					"subtitle": "Web Development",
 					"desc": "I'm an independent creative developer from MOROCCO",
-					"btn": "say Hello",
-					"btn2": "Scrol down"
+					"btn": "say Hello"
 				},
 
 				"about": {
@@ -43,15 +42,39 @@
 				"projects": {
 					"title": "Projects",
 					"subtitle": "My recent works",
-					"option":"All",
+					"option": "All",
 					"options": ["Web App", "Mobile App", "Photography", "All"],
 					"works": [
-						{ "title": "P1", "desc": "project number one" , "tag":"Web App" },
-						{ "title": "P2", "desc": "project number one" , "tag":"Web App" },
-						{ "title": "P3", "desc": "project number one" , "tag":"Web App" },
-						{ "title": "P4", "desc": "project number one" , "tag":"Web App" },
-						{ "title": "P5", "desc": "project number one" , "tag":"Mobile App" },
-						{ "title": "P6", "desc": "project number one" , "tag":"Photography" }
+						{
+							"title": "Best Shoot",
+							"desc": "this project contains the best photos i have ever taken (React,SCSS)",
+							"tag": "Web App"
+						},
+						{
+							"title": "Cats Shop",
+							"desc": "small cat supplies store (NextJS,Sanity,Stripe,CSS)",
+							"tag": "Web App"
+						},
+						{
+							"title": "Memories",
+							"desc": "posting pictures (MERN,material-UI)",
+							"tag": "Web App"
+						},
+						{
+							"title": "Porfolio 2022",
+							"desc": "first porfolio",
+							"tag": "Web App"
+						},
+						{
+							"title": "Coming Soon!",
+							"desc": "I just need time to do it (React-Native).",
+							"tag": "Mobile App"
+						},
+						{
+							"title": "Photography",
+							"desc": "Want to see more go to instagram (@fotografos__11) ",
+							"tag": "Photography"
+						}
 					]
 				},
 				"contact": {
@@ -102,16 +125,15 @@
 				],
 				"home": {
 					"title": "HACHEM KHALIDI",
-					"subtitle": "Web Development",
-					"desc": "I'm Web developer in MOROCCO",
-					"btn": "Hola",
-					"btn2": "Scrol down"
+					"subtitle": "Desarrollo Web",
+					"desc": "Soy un Desarrollador Creativo Independiente de MARRUECOS",
+					"btn": "Hola"
 				},
 
 				"about": {
 					"title": "Acerda de mí",
 					"subtitle": "Mi introduccion",
-					"desc": "Hola! Soy HACHEM , un Desarrollador de sowftware con sede en MARRUECOS. desarrollo aplicaciones web completas usando la pila MERN, pero sobre todo me encanta en el Front-end usando React y CSS ",
+					"desc": "Hola! Soy HACHEM , un Desarrollador de sowftware con sede en MARRUECOS. desarrollo aplicaciones web completas usando la pila MERN, pero sobre todo me encanta en el Front-end usando ReactJS o NextJS y CSS ",
 					"info": [
 						{
 							"icon": "dev",
@@ -127,57 +149,87 @@
 					"btn": "Descargar CV"
 				},
 				"skills": {
-					"title": "Skills esp",
-					"subtitle": "My technical level"
+					"title": "Habilidades",
+					"subtitle": "Mi Nivel Tecnico"
 				},
 				"projects": {
-					"title": "Projects Esp",
-					"subtitle": "My recent works",
-					"option":"Todas",
-					"options": ["Aplicacion Web", "Aplicacion Movil", "Fotografia", "Todas"],
+					"title": "Proyectos",
+					"subtitle": "Mis Trabajos Recientes",
+					"option": "Todas",
+					"options": [
+						"Aplicacion Web",
+						"Aplicacion Movil",
+						"Fotografia",
+						"Todas"
+					],
 					"works": [
-						{ "title": "P1", "desc": "project number one" , "tag":"Aplicacion Web" },
-						{ "title": "P2", "desc": "project number one" , "tag":"Aplicacion Web" },
-						{ "title": "P3", "desc": "project number one" , "tag":"Aplicacion Web" },
-						{ "title": "P4", "desc": "project number one" , "tag":"Aplicacion Web" },
-						{ "title": "P5", "desc": "project number one" , "tag":"Aplicacion Movil" },
-						{ "title": "P6", "desc": "project number one" , "tag":"Fotografia" }
+						{
+							"title": "Mejor Tiro",
+							"desc": "Este proyecto contiene las mejores fotos que he tomado (ReactJS, SCSS)",
+							"tag": "Aplicacion Web"
+						},
+						{
+							"title": "Tienda de Gatos",
+							"desc": "Tienda de suministros para gatos pequeños (NextJs, Sanity, Stripe, CSS",
+							"tag": "Aplicacion Web"
+						},
+						{
+							"title": "Recuerdos",
+							"desc": "Publicar imagenes (MERN, M-UI)",
+							"tag": "Aplicacion Web"
+						},
+						{
+							"title": "Portafolio",
+
+							"desc": "Primer portafolio ",
+							"tag": "Aplicacion Web"
+						},
+						{
+							"title": "Muy Pronto!",
+							"desc": "Solo necesito tiempo para hacerlo (React-Native).",
+							"tag": "Aplicacion Movil"
+						},
+						{
+							"title": "Fotografia",
+							"desc": "Quieres ver mas ve a Instagram (@fotografos__11)",
+							"tag": "Fotografia"
+						}
 					]
 				},
 				"contact": {
-					"title": "Contact esp",
-					"subtitle": "Get in Touch",
+					"title": "Contacto",
+					"subtitle": "Ponerse en Contacto",
 					"options": [
 						{
 							"icon": "email",
-							"name": "Email",
+							"name": "Correo Electronico",
 							"social": "hachemkhalidi@gmail.com",
 							"href": "mailto:hachemkhalidi@gmail.com",
-							"link": "Send a message esp"
+							"link": "Enviar un Mensaje"
 						},
 						{
 							"icon": "messenger",
-							"name": "Messenger",
+							"name": "Mensajero",
 							"social": "hachem khaldi",
 							"href": "https://m.me/hicham.khaldi.98",
-							"link": "Send a message esp"
+							"link": "Enviar un Mensaje"
 						},
 						{
 							"icon": "whatsapp",
 							"name": "Whatsapp",
 							"social": "+212691330338",
 							"href": "https://api.whatsapp.com/send?phone+212691330338",
-							"link": "Send a message esp"
+							"link": "Enviar un Mensaje"
 						}
 					],
 					"form": {
-						"name": "Your Full Name esp",
-						"email": "Your Email",
-						"message": "Your Message",
-						"btn": "Send Message"
+						"name": "Tu nombre completo",
+						"email": "Tu correo electronico",
+						"message": "Tu mensaje",
+						"btn": "Enviar Mensaje"
 					}
 				},
-				"footer": "2023 HACHEM. ALL Rights reserved"
+				"footer": "2023 HACHEM. Reservados todos los derechos"
 			}
 		},
 		{
@@ -185,88 +237,111 @@
 			"section": {
 				"navbar": [
 					{ "id": 1, "href": "#home", "title": "Accueil" },
-					{ "id": 2, "href": "#about", "title": "Propos" },
+					{ "id": 2, "href": "#about", "title": "A Propos" },
 					{ "id": 3, "href": "#skills", "title": "Competences" },
 					{ "id": 4, "href": "#projects", "title": "Projets" },
 					{ "id": 5, "href": "#contact", "title": "Contact" }
 				],
 				"home": {
 					"title": "HACHEM KHALIDI",
-					"subtitle": "Web Development",
-					"desc": "Je suis Web developer dans MOROCCO",
-					"btn": "Salut",
-					"btn2": "Scrol down"
+					"subtitle": "Developpement Web",
+					"desc": "Je suis un developpeur creatif independant du MAROC",
+					"btn": "Salut"
 				},
 				"about": {
-					"title": "About Me",
-					"subtitle": "My introduction",
-					"desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventoresuscipit ipsa earum. Nostrum autem consequatur ",
+					"title": "Sur Moi",
+					"subtitle": "Mon Introduction",
+					"desc": "Salut! je suis HACHEM, un developpeur de logiciels base au MAROC. je developpe des applications Web completes a l'aide de la pile MERN, mais j'aime surtout le front-end utilisant ReactJS ou NextJs et CSS",
 					"info": [
 						{
 							"icon": "dev",
 							"title": "Experience",
-							"daily": "1.5 Years"
+							"daily": "1.5 Annees"
 						},
 						{
 							"icon": "photo",
 							"title": "Experience",
-							"daily": "3 Years"
+							"daily": "3 Annees"
 						}
 					],
-					"btn": "Dowload CV"
+					"btn": "Telecharger CV"
 				},
 				"skills": {
-					"title": "Skills",
-					"subtitle": "My technical level"
+					"title": "Competences",
+					"subtitle": "Mon Niveau Technique"
 				},
 				"projects": {
-					"title": "Projects",
-					"subtitle": "My recent works",
-					"option":"Toute",
+					"title": "Projets",
+					"subtitle": "Mes Travaux Recents",
+					"option": "Toute",
 					"options": ["App Web", "App Mobile", "Photographie", "Toute"],
 					"works": [
-						{ "title": "P1", "desc": "project number one" , "tag":"App Web" },
-						{ "title": "P2", "desc": "project number one" , "tag":"App Web" },
-						{ "title": "P3", "desc": "project number one" , "tag":"App Web" },
-						{ "title": "P4", "desc": "project number one" , "tag":"App Web" },
-						{ "title": "P5", "desc": "project number one" , "tag":"App Mobile" },
-						{ "title": "P6", "desc": "project number one" , "tag":"Photographie" }
+						{
+							"title": "Meilleur Tournage",
+							"desc": "Ce projet contient les mailleures photos que j'ai jamais prises (ReactJS, SCSS).",
+							"tag": "App Web"
+						},
+						{
+							"title": "Chats Boutique",
+							"desc": "Magasin de fournitures pour petits chats (NextJS, Sanity, Stripe, CSS).",
+							"tag": "App Web"
+						},
+						{
+							"title": "Souvenirs",
+							"desc": "Partage des images",
+							"tag": "App Web"
+						},
+						{
+							"title": "Portefeuille 2022",
+							"desc": "Premier portefeuille",
+							"tag": "App Web"
+						},
+						{
+							"title": "A Venir",
+							"desc": "J'ai juste besoin de temps pour le faire (React-Native).",
+							"tag": "App Mobile"
+						},
+						{
+							"title": "La Photographie",
+							"desc": "Vous vouley en voir plus allez sur Instagram (@fotografos__11)",
+							"tag": "Photographie"
+						}
 					]
 				},
 				"contact": {
 					"title": "Contact",
-					"subtitle": "Get in Touch",
+					"subtitle": "Entrer en Contact",
 					"options": [
 						{
 							"icon": "email",
-							"name": "Email",
+							"name": "E-mail",
 							"social": "hachemkhalidi@gmail.com",
 							"href": "mailto:hachemkhalidi@gmail.com",
-							"link": "Envoyer message"
+							"link": "Envoyer un message"
 						},
 						{
 							"icon": "messenger",
-							"name": "Messenger",
+							"name": "Messager",
 							"social": "hachem khaldi",
 							"href": "https://m.me/hicham.khaldi.98",
-							"link": "Envoyer message"
+							"link": "Envoyer un message"
 						},
 						{
 							"icon": "whatsapp",
 							"name": "Whatsapp",
 							"social": "+212691330338",
 							"href": "https://api.whatsapp.com/send?phone+212691330338",
-							"link": "Envoyer message"
+							"link": "Envoyer un message"
 						}
 					],
 					"form": {
-						"name": "Your Full Name",
-						"email": "Your Email",
-						"message": "Your Message",
-						"btn": "Envoyer Message"
+						"name": "Ton nom complete",
+						"email": "Votre e-mail",
+						"message": "Votre message",
+						"btn": "Envoyer le Message"
 					}
 				},
-				"footer": "2022 HACHEM. ALL Rights reserved"
+				"footer": "2022 HACHEM. Tous les droitss sont reserves"
 			}
 		}
 	]

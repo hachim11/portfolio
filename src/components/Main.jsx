@@ -8,6 +8,7 @@ import {
 	Contact,
 	Footer,
 } from "./index";
+import { en,es,fr } from "../images";
 
 import translation from "../translation/data.json";
 import { ThemeContext } from "../App";
@@ -47,7 +48,7 @@ const Main = () => {
 					window.location.reload();
 				}}
 			>
-				🟡
+				<img src={en} className="icon-lg" alt="en"/>
 			</li>
 			<li
 				className="icon"
@@ -56,7 +57,8 @@ const Main = () => {
 					window.location.reload();
 				}}
 			>
-				🔵
+				<img src={es} className="icon-lg" alt="es"/>
+				
 			</li>
 			<li
 				className="icon"
@@ -65,7 +67,8 @@ const Main = () => {
 					window.location.reload();
 				}}
 			>
-				🔴
+				<img src={fr} className="icon-lg" alt="fr"/>
+				
 			</li>
 		</ul>
 	);

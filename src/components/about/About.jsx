@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import { DataContext } from "../Main";
 import Info from "./Info";
 import "./about.css";
-import { Img4 } from "../../images";
+import { aboutImg } from "../../images";
+import CV from '../../assest/cv.pdf'
 
 const About = () => {
 	const { data } = useContext(DataContext);
@@ -23,11 +24,14 @@ const About = () => {
 				.map((item) => item[1].section.about)
 				.map((i, index) => (
 					<div className="about_container container grid" key={index}>
-						<img src={Img4} alt="" className="about_img" />
+						<div className="about_img">
+							<img src={aboutImg} alt="" />
+						</div>
 						<div className="about_data">
 							<Info data={i.info} key={index} />
 							<p className="about_desc txt">{i.desc}</p>
-							<a download="" href="#cv" className="btn btn--flex">
+							{/* <a download="HachemCV" href={ i.btn === "Descargar CVs" && CV} className="btn btn--flex"> */}
+							<a download="HachemCV" href={CV} className="btn btn--flex">
 								{i.btn}
 							</a>
 						</div>

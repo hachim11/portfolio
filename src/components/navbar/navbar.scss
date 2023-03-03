@@ -17,26 +17,21 @@
 }
 .header {
 	position: fixed;
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: var(--btnDark);
-
 	box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
 	width: 100%;
 	padding: 1rem;
 	z-index: 1000;
 	.logoDiv {
-		font-weight: 600;
+		width:35px;
 		cursor: pointer;
 		align-items: center;
-		justify-content: center;
 		.logo {
-			h1 {
-				font-size: 25px;
-color: white;
-				//background-color: red;
+			img {
+				width: 100%;
 			}
 		}
 	}
@@ -129,6 +124,9 @@ color: white;
 					.navLink {
 						font-size: 0.9rem;
 						font-weight: 600;
+						&:hover {
+							color: rgb(251, 218, 2);
+						}
 					}
 				}
 			}
@@ -200,7 +198,7 @@ color: white;
 					font-weight: 500;
 
 					&:hover {
-						color: var(--PrimaryColor);
+						color: rgb(251, 218, 2);
 					}
 				}
 			}
